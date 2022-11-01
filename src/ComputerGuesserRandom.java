@@ -20,6 +20,7 @@ public class ComputerGuesserRandom implements IGuesser {
     {
         randomGuess = (int) ((Math.random() * (max - min)) + min);
         return randomGuess;
+        System.out.println("Computer guesseren er snotdum.");
     }
 
     public void guessFeedback(Answer answer)
